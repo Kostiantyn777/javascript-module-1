@@ -12,6 +12,7 @@ function sumTillNum(num) {
     sum += i;
   }
   return sum;
-} //your code here
+}
+let finalResult = sumTillNum(n);
 
-console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));
+console.log("Sum from 0 to " + n + " is: " + finalResult);
