@@ -5,14 +5,13 @@
 */
 
 let n = 10;
-let sum = 0;
 
 function sumTillNum(num) {
+  let sum = 0;
   for (let i = 1; i <= num; i++) {
     sum += i;
   }
   return sum;
 }
-let finalResult = sumTillNum(n);
 
-console.log("Sum from 0 to " + n + " is: " + finalResult);
+console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));
